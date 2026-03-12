@@ -1,0 +1,159 @@
+---
+title: "Gestión"
+icon: "balloon"
+description: "Gestiona el registro, añadición, eliminación, etc del automod"
+---
+
+<Warning>
+  `<>` significa que se requiere un argumento, `[]` significa que es opcional.
+</Warning>
+
+<Warning>
+  Solo usuarios con permisos de administrador pueden hacer uso de los comandos.
+</Warning>
+
+### Automod Status
+
+Activa o desactiva el sistema del Automod
+
+<CodeGroup>
+
+```js Syntax
+/automod status estado: <Activar> <Desactivar>
+```
+
+</CodeGroup>
+
+- `Activar`: Requerido \
+  Activa el Automod
+- `Desactivar`: Requerido\
+  Desactiva el Automod
+
+  <Frame>
+    ![Image](/images/image-2.png)
+  </Frame>
+
+### Automod Añadir Palabras
+
+Añade palabras a la lista que koki va a verificar
+
+<CodeGroup>
+
+```js Syntax
+/automod añadir seccion: <Spam> <Insultos> <Toxicidad> palabras: <Caulquier palabra>
+```
+
+</CodeGroup>
+
+- `Spam`: Requerido\
+  Añade palabras a la sección de Spam | Links
+- `Insultos`: Requerido\
+  Añade palabras a la sección de Insultos
+- `Toxicidad`: Requerido\
+  Añade palabras a la sección de comentarios Tóxicos
+- `palabras`(texto): Requerido \
+  Escribe la palabra que vas a añadir a la lista; si son más de 1 palabra separar con ","
+
+  <Frame>
+    ![Image](/images/image-1.png)
+  </Frame>
+
+### Automod Eliminar Palabras
+
+Añade palabras a la lista que koki va a verificar
+
+<CodeGroup>
+
+```js Syntax
+/automod eliminar seccion: <Spam> <Insultos> <Toxicidad> palabras: <Caulquier palabra>
+```
+
+</CodeGroup>
+
+- `Spam`: Requerido\
+  Elimina palabras a la sección de Spam | Links
+- `Insultos`: Requerido\
+  Elimina palabras a la sección de Insultos
+- `Toxicidad`: Requerido\
+  Elimina palabras a la sección de comentarios Tóxicos
+- `palabras`(texto): Requerido \
+  Escribe la palabra que vas a Elimina de la lista; si son más de 1 palabra separar con ","
+
+  <Frame>
+    ![Image](/images/image.png)
+  </Frame>
+
+### Automod Canal Log
+
+Ingresa el canal donde se registrarán todas las faltas
+
+<CodeGroup>
+
+```js Syntax
+/automod log canal: <canal> <hilo>
+```
+
+</CodeGroup>
+
+- `canal`(#canal): Requerido \
+  Ingrese el canal donde se guardara el registro
+- `hilo`(#hilo): Requerido \
+  Ingrese el hilo donde se guardara el registro
+
+<Frame>
+  ![Image](/images/image-4.png)
+</Frame>
+
+### Automod Ignorar
+
+Excluye roles o canales específicos.
+
+<CodeGroup>
+
+```js Syntax
+/automod ignorar accion: <Añadir> <Eliminar> <rol> <canal>
+```
+
+</CodeGroup>
+
+- `Añadir`: Requerido\
+  Añade canales o roles al sistema de ignorancia del Automod
+- `Eliminar`: Requerido\
+  Elimina canales o roles al sistema de ignorancia del Automod
+- `Rol`: Requerido\
+  Selecciona el rol que deseas añadir o eliminar
+- `Canal`: Requerido\
+  Selecciona el canal que deseas añadir o eliminar
+
+<Frame>
+  ![Image](/images/image-5.png)
+</Frame>
+
+### Automod staff
+
+Excluye roles o canales específicos.
+
+<CodeGroup>
+
+```js Syntax
+/automod staff accion: <Añadir> <Eliminar> <rol> <canal>
+```
+
+</CodeGroup>
+
+- `Añadir`: Requerido\
+  Añade canales o roles al sistema de ignorancia del Automod
+- `Eliminar`: Requerido\
+  Elimina canales o roles al sistema de ignorancia del Automod
+- `Rol`: Requerido\
+  Selecciona el rol que deseas añadir o eliminar
+- `Canal`: Requerido\
+  Selecciona el canal que deseas añadir o eliminar
+
+<Frame>
+  ![Image](/images/image-6.png)
+</Frame>
+
+<Tip>
+  Estos comandos pueden llegar a tener errores, contacte con soporte si ocurre un problema
+</Tip>

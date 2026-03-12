@@ -24,42 +24,33 @@
   "navigation": {
     "groups": [
       {
-        "group": "Overview",
-        "pages": ["overview/introduction", "overview/support", "overview/links"]
+        "group": "Resumen",
+        "pages": [
+          "introduccion",
+          "soporte"
+        ]
       },
       {
-        "group": "Modules",
+        "group": "Modulos",
         "pages": [
           {
-            "group": "Giveaways",
-            "icon": "party-horn",
+            "group": "Koki",
+            "icon": "cat",
             "pages": [
-              "modules/giveaway/quickstart",
-              "modules/giveaway/management",
-              "modules/giveaway/configuration",
-              "modules/giveaway/preset",
-              "modules/giveaway/template"
-            ]
-          },
-
-          {
-            "group": "Guild",
-            "icon": "house",
-            "pages": [
-              "modules/guild/welcomer",
-              "modules/guild/dmonjoin",
-              "modules/guild/customcontents",
-              "modules/guild/customization"
+              "modules/koki/preguntas-frecuentes",
+              "modules/koki/gestion",
+              "modules/koki/visualizacion"
             ]
           },
           {
-            "group": "Utility",
-            "icon": "sliders",
-            "pages": [
-              "modules/utility/channels",
-              "modules/utility/info",
-              "modules/utility/reminder"
-            ]
+            "group": "Michi",
+            "icon": "dog",
+            "pages": []
+          },
+          {
+            "group": "Snoop",
+            "icon": "snowflake",
+            "pages": []
           }
         ]
       },
@@ -82,10 +73,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "https://www.baobun.dev/bot.png",
-    "dark": "https://www.baobun.dev/bot.png"
-  },
+  "logo": "https://i.imgur.com/Nil6Bev.png",
   "favicon": "favicon.ico",
   "navbar": {
     "links": [
