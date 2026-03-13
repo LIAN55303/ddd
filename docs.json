@@ -66,9 +66,9 @@
       {
         "group": "Resources",
         "pages": [
-          "resources/syntax",
           "resources/variables",
           "resources/embed_layout",
+          "resources/untitled-page",
           "resources/mensaje-id"
         ]
       },
