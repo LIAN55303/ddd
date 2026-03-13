@@ -26,9 +26,9 @@
       {
         "group": "Resumen",
         "pages": [
-          "introduccion",
-          "soporte",
-          "links"
+          "resumen/introduccion",
+          "resumen/soporte",
+          "resumen/links"
         ]
       },
       {
