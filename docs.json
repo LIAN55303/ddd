@@ -62,7 +62,8 @@
       {
         "group": "Resources",
         "pages": [
-          "resources/mensaje-id"
+          "resources/mensaje-id",
+          "resources/sintaxis"
         ]
       },
       {
