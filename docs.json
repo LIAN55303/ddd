@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "baobun docs",
-  "description": "documentation for baobun",
+  "name": "MiMi Berry Docs",
+  "description": "Documentación",
   "colors": {
     "primary": "#e57a9e",
     "light": "#f7c0d0",
@@ -80,8 +80,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support Server",
-        "href": "https://discord.gg/AXRShswtZ4"
+        "label": "Servidor de soporte",
+        "href": " https://discord.gg/VVbxM2fa2n"
       }
     ]
   },
