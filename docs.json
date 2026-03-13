@@ -57,17 +57,11 @@
       },
       {
         "group": "Tutorials",
-        "pages": [
-          "tutorials/customcontent",
-          "tutorials/welcomer",
-          "tutorials/dm"
-        ]
+        "pages": []
       },
       {
         "group": "Resources",
         "pages": [
-          "resources/variables",
-          "resources/embed_layout",
           "resources/untitled-page",
           "resources/mensaje-id"
         ]
