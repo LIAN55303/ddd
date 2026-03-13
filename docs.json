@@ -69,8 +69,8 @@
       {
         "group": "Legal",
         "pages": [
-          "terminos",
-          "politicas"
+          "legal/terminos",
+          "legal/politicas"
         ]
       }
     ]
