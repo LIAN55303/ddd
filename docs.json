@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "MiMi Berry Docs",
+  "name": "Flutter dicord docs",
   "description": "Documentación",
   "colors": {
-    "primary": "#e57a9e",
-    "light": "#f7c0d0",
-    "dark": "#d44d76"
+    "primary": "#5b64f5",
+    "light": "#9ba2ff",
+    "dark": "#3d46c1"
   },
   "seo": {
     "indexing": "all",
@@ -75,8 +75,8 @@
       }
     ]
   },
-  "logo": "https://i.imgur.com/Nil6Bev.png",
-  "favicon": "https://i.imgur.com/lS6VhDC.png",
+  "logo": "https://i.imgur.com/60qW0EE.png",
+  "favicon": "https://i.imgur.com/60qW0EE.png",
   "navbar": {
     "links": [
       {
