@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Flutter dicord docs",
+  "name": "skirr dicord docs",
   "description": "Documentación",
   "colors": {
     "primary": "#5b64f5",
